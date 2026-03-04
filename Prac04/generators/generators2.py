@@ -4,4 +4,4 @@ def even(n):
             yield i
 
 n = int(input())
-print(",".join(str(i) for i in even(n)))
+print(", ".join(str(i) for i in even(n)))
